@@ -1,0 +1,136 @@
+/* CSS Document */
+
+
+.page{
+width:800px; /*définit la largeur du div à 800 pixels*/
+margin:auto /* marges automatiques pour centrer sur la page*/
+}
+
+.zone1 {
+width:800px; /*définit la largeur du div à 800 pixels*/
+height:120px; /*définit la hauteur du div à 120 pixels*/
+background-color:#333333; /*couleur de fond*/
+}
+
+.photo{
+float: left; /*place le div à gauche*/
+padding:10px /*marges intérieures au div de 10 pixels*/
+}
+
+.photo2{
+	width: 100%;
+	height:100%;
+}
+
+.texte{
+	margin:auto;/*placement de la marge en automatique*/
+	padding:25px;/*marges intérieures au div de 25 pixels*/
+	text-align:center;/*alignement du texte au centre de ka div*/
+	color:#CCCCCC;/*couleur du texte en gris*/
+	font-size: 24px;/*taille du texte de 24 pixels*/
+}
+
+
+.texte2{
+	margin:auto;/*placement de la marge en automatique*/
+	padding:0px;/*marges intérieures au div de 0 pixels*/
+	text-align:start;/*alignement du texte au centre de la div*/
+	color:#333333;/*couleur du texte en noir*/
+	font-size: 24px;/*taille du texte de 24 pixels*/
+}
+
+
+
+.zone2{
+	width:50%; /*définit la largeur du div à 50%*/
+	height:200px; /*définit la hauteur du div à 200 pixels*/
+	background-color:#cccccc; /*couleur de fond en gris*/
+	float: left;/* placement de la zone a gauche*/
+}
+
+.zone4{
+	width:800px;/*définit la largeur du div à 800 pixels*/
+	min-height:100px;/* définit la hauteur minimal a 100 pixels*/
+	background-color:#333333;/*couleur du fond en noir*/
+}
+
+.footer{
+	display: flex;/*affiche qui remplit tout l'espace disponible*/
+	justify-content: center;/* placement duccontenut au centre*/
+	padding: 5px;/*marges intérieures au div de 5 pixels*/
+	background-color: #333333;/*couleur du fond en noir*/
+}
+
+.texte4{
+	margin:auto;/*placement de la marge en automatique*/
+	padding:0px;/*marges intérieures au div de 0 pixels*/
+	text-align:center;/*alignement du texte au centre de la div*/
+	color:#cccccc;/*couleur du texte en gris*/
+	font-size: 24px;/*taille du texte de 24 pixels*/
+}
+
+.zone3{
+	width:50%; /*définit la largeur du div à 800 pixels*/
+	height:200px; /*définit la hauteur du div à 120 pixels*/
+	text-align: center;/*alignement du texte au centre de la div*/
+	background-color:#ffffff; /*couleur de fond*/
+	float: right;/* placement de la zone a droite*/
+}
+
+.texte3{
+	margin:auto;/*placement de la marge en automatique*/
+	padding:0px;/*marges intérieures au div de 0 pixels*/
+	text-align:center;/*alignement du texte au centre de la div*/
+	color:#333333;/* couleur en noirs*/
+	font-size: 24px;/*taille du texte de 24 pixels*/
+}
+
+.dropdownmenu ul {
+    display: none;
+}
+
+.dropdownmenu {
+    background-color: #808b96;
+	display: flex;
+ 
+}
+
+/* Pour le menu principal */
+.dropdownmenu { 
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+/* Pour les sous-menus */
+.dropdownmenu ul {  
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdownmenu a {
+  display: block;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  background-color: #566573;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.dropdownmenu li {
+  position: relative;
+}
+.dropdownmenu li:hover ul {
+  display: block;
+  position: absolute;
+  top: 41px;
+  left: 0px;
+  z-index: 100;
+}
+
+.dropdownmenu ul a:hover {
+  background-color: #ac9933;
+}
